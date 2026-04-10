@@ -1,0 +1,40 @@
+@import '../Styles/pages/home.css';
+@import '../Styles/components/header.css';
+@import '../Styles/components/footer.css';
+@import '../Styles/pages/signin.css';
+@import '../Styles/components/singinform.css';
+@import '../Styles/pages/user.css';
+@import '../Styles/components/bankinfo.css';
+@import '../Styles/components/names.css';
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important; /* 2 */
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important; /* 3 */
+}
+
+.feature-icon {
+  width: 100px;
+  border: 10px solid #00bc77;
+  border-radius: 50%;
+  padding: 1rem;
+}
+
+.feature-item {
+  flex: 1;
+  padding: 2.5rem;
+}
+
+.feature-item-title {
+  color: #222;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}/*# sourceMappingURL=app.css.map */
