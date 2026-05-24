@@ -30,5 +30,5 @@ rootElement.render(
         <Footer />
       </Router>
     </Provider>
-  </React.StrictMode>
+  </React.StrictMode>,
 )
