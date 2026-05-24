@@ -29,7 +29,7 @@ function Signinform() {
       })
 
       if (!response.ok) {
-        throw new Error('Error: User not found!')
+        throw new Error('Error: Invalid credentials!') //changer au moins precise
       } else {
         const data = await response.json()
         const token = data.body.token
@@ -53,7 +53,7 @@ function Signinform() {
                   firstname: user.userName.split(' ').slice(0, 1),
                   lastname: user.userName.split(' ').slice(1, 2),
                   token: token,
-                })
+                }),
               )
             }
           })

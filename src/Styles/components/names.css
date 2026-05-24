@@ -26,10 +26,14 @@
   width: 119px;
 }
 
+.input-error {
+  border: 2px solid red;
+}
+
 .button-style {
   border-color: #00bc77;
   background-color: #00bc77;
   color: #fff;
   font-weight: bold;
   padding: 10px;
-}/*# sourceMappingURL=names.css.map */
+} /*# sourceMappingURL=names.css.map */
